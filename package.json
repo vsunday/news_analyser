@@ -1,0 +1,24 @@
+{
+  "name": "news_analyser",
+  "version": "0.1.0",
+  "description": "analyse and summarize news articles from various source",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "news;",
+    "analysis;",
+    "summarize;"
+  ],
+  "author": "vsunday",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.454.0",
+    "request": "^2.88.0",
+    "xml2js": "^0.4.19"
+  },
+  "devDependencies": {
+    "dotenv": "^8.0.0"
+  }
+}
