@@ -17,6 +17,7 @@ exports.handler = async (event) => {
 function putTextFile(data) {
   const now = new Date();
   const filename = [now.getFullYear(), now.getMonth()+1, now.getDate()].join('-');
+  if (!BUCKET) throw 'BUCKET must not be null';
   const params = {
     Body: data,
     Bucket: BUCKET,
